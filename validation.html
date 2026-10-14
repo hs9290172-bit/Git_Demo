@@ -1,0 +1,38 @@
+<html>
+<head>
+<script language="javascript">
+function forloop()
+{
+		var val=prompt("Enter value:")
+		var tim=parseInt(prompt("How many times u want to print that value:"))
+if (tim==-tim)
+	{
+		 alert("Enter (+ve) value")
+	}
+else if (tim>=50)
+	{
+	 alert("Sorry , you Can't Exceed 50!")
+	}
+else 
+{
+		for(i=1;i<=tim;i++)
+               {
+		document.write(val , "<br>")
+               }
+}
+}
+</script>
+</head>
+
+<body bgcolor=pink text=black>
+<center><h1 style="font-size:50pt">For Loop<h1></center>
+<h3>Limitations:-</h3>
+<ol>
+<li>Please Enter the Positive (+) Value in Times Prompt</li>
+<li>You Can't Exceed <=50 Value</li>
+</ol>
+
+<input type="button" value="Let's go " onclick="forloop()">
+
+</body>
+</html>
